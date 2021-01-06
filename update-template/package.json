@@ -1,0 +1,51 @@
+{
+  "name": "@gulpjs/update-template",
+  "version": "0.2.2",
+  "description": "Updates a gulpjs repository to match our current scaffold.",
+  "author": "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
+  "contributors": [
+    "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)"
+  ],
+  "repository": "gulpjs/update-template",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "main": "index.js",
+  "bin": {
+    "update-template": "index.js"
+  },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "nyc mocha --async-only"
+  },
+  "dependencies": {
+    "@phated/boilerplate-update": "^0.37.5",
+    "js-yaml": "^3.14.0",
+    "remote-git-tags": "^3.0.0",
+    "sver": "^1.8.3",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-gulp": "^5.0.0",
+    "expect": "^26.0.1",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "keywords": []
+}

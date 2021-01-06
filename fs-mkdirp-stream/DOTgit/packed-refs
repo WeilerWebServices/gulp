@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+bbb44f62de78b9d9282947d4c04d9bdc8862d204 refs/remotes/origin/dangling-link
+87bb5b9a79b1645ed6b028ecdde5991534faf34f refs/remotes/origin/master
+734efc34e1f40a441b4139b12cd33de4e8543a6c refs/tags/v1.0.0
+^3a27851dc08f43dbe2d3fda2dddef34c67408715

@@ -1,0 +1,36 @@
+{
+  "name": "gulplog",
+  "version": "1.0.0",
+  "description": "Logger for gulp and gulp plugins",
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "contributors": [],
+  "repository": "gulpjs/gulplog",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint *.js && jscs *.js",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "glogg": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.7.3",
+    "eslint-config-gulp": "^1.0.0",
+    "jscs": "^2.3.5",
+    "jscs-preset-gulp": "^1.0.0"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-util",
+    "log",
+    "logging"
+  ]
+}

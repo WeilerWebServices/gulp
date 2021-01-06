@@ -1,0 +1,56 @@
+{
+  "name": "fs-mkdirp-stream",
+  "version": "1.0.0",
+  "description": "Ensure directories exist before writing to them.",
+  "author": "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
+  "contributors": [
+    "Blaine Bublitz <blaine.bublitz@gmail.com>"
+  ],
+  "repository": "gulpjs/fs-mkdirp-stream",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js",
+    "mkdirp.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "nyc mocha --async-only"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "streamx": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-gulp": "^5.0.0",
+    "expect": "^26.0.1",
+    "jest-mock": "^26.0.1",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1",
+    "rimraf": "^3.0.2"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "keywords": [
+    "fs",
+    "mkdirp",
+    "stream",
+    "mkdir",
+    "directory",
+    "directories",
+    "ensure"
+  ]
+}

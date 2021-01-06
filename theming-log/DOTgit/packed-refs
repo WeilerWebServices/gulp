@@ -1,0 +1,10 @@
+# pack-refs with: peeled fully-peeled sorted 
+1f321ad634c74acef3d1c144d492fd5c4f8c5df4 refs/remotes/origin/master
+5c8cf8113482f9638f281ae9c4318d05d4f7f487 refs/remotes/origin/transfer_owner_to_gulpjs
+f46bdc740b22fd3b6b389f93792e3c16730ead2d refs/tags/0.1.0
+f820a7aa137c094e3075455991ed49b10e2718fe refs/tags/0.2.0
+4c5f57fbcd1e4761d5fed76578e798dff47c2f67 refs/tags/0.2.1
+65ea3223d26e8b16c14bf8fbdbe67fc4300f05a4 refs/tags/1.0.1
+83b35ededf747a745800a088f64f3db4cfbc6f95 refs/tags/2.0.0
+46905f74de989a2fd1b524bf96bbb41d422018ee refs/tags/2.1.0
+a4a7965ae6ae68da2cc9e640211d96fea50deff4 refs/tags/2.1.1
